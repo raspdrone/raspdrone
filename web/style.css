@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+
+* {
+	font-family: 'Source Code Pro', monospace;
+	margin: 0;
+	padding: 0;
+}
+
+
+body{
+	background-image: url('img/viaduc_blured.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+section {
+	max-width: 600px;
+	margin-left: 50%;
+	transform: translate(-50%);
+}
+
+
+#buttons-container {
+	display: flex;
+	margin: 40px;
+}
+
+
+.button {
+	flex: 1;
+	width: 200px;
+	height: 100%;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 15px;
+	text-align: center;
+	background: rgb(31, 139, 199);
+	color: white;
+}
+
+
+.button:hover {
+	background: rgb(24, 101, 142);
+}
+
+
+.button {
+
+}
+
+
+table {
+	width: 100%;
+
+}
+
+th {
+	background: white;
+	padding: 5px;
+}
+
+
+td {
+	background: rgba(255, 255, 255, 0.5);
+	padding: 5px;
+}
